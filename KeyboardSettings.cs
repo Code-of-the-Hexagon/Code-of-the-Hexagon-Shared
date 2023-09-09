@@ -4,10 +4,11 @@ using UnityEngine;
 
 public static class KeyboardSettings
 {
-    public const string MoveCameraForwards = "w";
-    public const string MoveCameraBackwards = "s";
-    public const string MoveCameraLeft = "a";
-    public const string MoveCameraRight = "d";
-    public const string RotateCameraLeft = "q";
-    public const string RotateCameraRight = "e";
+    public const KeyCode MoveCameraForwards = KeyCode.W;
+    public const KeyCode MoveCameraBackwards = KeyCode.S;
+    public const KeyCode MoveCameraLeft = KeyCode.A;
+    public const KeyCode MoveCameraRight = KeyCode.D;
+    public const KeyCode RotateCameraLeft = KeyCode.Q;
+    public const KeyCode RotateCameraRight = KeyCode.E;
+    public const KeyCode IncreaseCameraSpeed = KeyCode.LeftShift;
 }
