@@ -1,6 +1,6 @@
-﻿using Code_of_the_Hexagon_Server.Shared.CoordinateSystem;
+﻿using Shared.CoordinateSystem;
 
-namespace Code_of_the_Hexagon_Server.Shared
+namespace Shared
 {
     public class SharedWorld
     {
